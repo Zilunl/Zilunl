@@ -1,4 +1,4 @@
-# Hello World! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" /> I'm Zilun <img height="30px" src="./allo-happy.gif"> 
+# Hello World! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" /> I'm Zilun <img height="30px" src="/Assets/allo-happy.gif"> 
 
 ### 📬 Find me at
 [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/Zilunl/)](https://github.com/Zilunl) 
@@ -7,9 +7,9 @@
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:zilunli0730@gmail.com)](mailto:zilunli0730@gmail.com)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/zilun_n)](https://www.instagram.com/zilun_n)
 
-### <img width="30" src="./kirby.gif"> A little about me:
+### <img width="30" src="/Assets/kirby.gif"> A little about me:
 <!-- code gif-->
-<img align="right" alt="GIF" src="./code.gif" width="400" height="280" />
+<img align="right" alt="GIF" src="/Assets/code.gif" width="400" height="280" />
 
 - 👩🏻‍🎓 I am currently enrolled as a student at the University of Melbourne, pursuing a Master's degree in Information Technology with a specialization in Distributed Computing
 - 💻 I have some knowledge in **ML, AI, NLP**, Cluster and Cloud Computing, Distributed Systems, Algorithms and Data Structures, Web Development, Unity Game Development, Software Project Management, Cryptography and Security, as well as Information Visualization
@@ -69,7 +69,7 @@
 
 ---
 <div align="center">
-  <img width="30" src="./angelhearts0.png" alt="Angel Hearts">
+  <img width="30" src="/Assets/angelhearts0.png" alt="Angel Hearts">
   <p>Grateful for everything.</p>
 </div>
 
