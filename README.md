@@ -13,7 +13,7 @@
 
 - 👩🏻‍🎓 I am currently enrolled as a student at the University of Melbourne, pursuing a Master's degree in Information Technology with a specialization in Distributed Computing
 - 💻 I have some knowledge in **ML, AI, NLP**, Cluster and Cloud Computing, Distributed Systems, Algorithms and Data Structures, Web Development, Unity Game Development, Software Project Management, Cryptography and Security, as well as Information Visualization
-- 📚 I am in the process of learning how to construct Docker containers now
+- 📚 I am currently in the process of learning how to construct Docker containers
 - 📖 I am currently reading **病隙碎笔** by 史铁生
 - ❤️ I love reading, hiking, tea drinking, meditation and nature
 - 💬 Ask me about anything [here](https://github.com/Zilunl/Zilunl/issues)
