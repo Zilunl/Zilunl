@@ -56,7 +56,7 @@
 
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Zilunl&repo=Zilunl&theme=buefy" />
 </a>
 <a href="https://github.com/Zilunl/project-2-squirrel-squad">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Zilunl&repo=project-2-squirrel-squad&theme=buefy" />
