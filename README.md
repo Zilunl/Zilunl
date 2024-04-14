@@ -1,4 +1,4 @@
-# Hello World! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" /> I'm Zilun <img height="30px" src="/Assets/allo-happy.gif"> 
+# Hello World! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" /> I'm Zilun <img height=30 src="/Assets/allo-happy.gif"> 
 
 ### 📬 Find me at
 [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/Zilunl/)](https://github.com/Zilunl) 
