@@ -49,13 +49,13 @@
 
 ---
 ### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
-| <a href="https://github.com/Zilunl/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Zilunl&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Zilun's github stats" /></a> | <a href="https://github.com/Zilunl/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zilunl&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Zilunl&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Zilun's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zilunl&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 #### Top Repositories
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/Zilunl/Zilunl">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Zilunl&repo=Zilunl&theme=buefy" />
 </a>
 <a href="https://github.com/Zilunl/project-2-squirrel-squad">
