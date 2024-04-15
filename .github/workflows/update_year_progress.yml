@@ -21,7 +21,7 @@ jobs:
       - name: Run script
         id: calculate_progress
         run: |
-          output=$(python year_progress.py)
+          output=$(python .github/workflows/year_progress.py)
           progress=$(echo $output | cut -d' ' -f1)
           progress_bar=$(echo $output | cut -d' ' -f2)
           current_date=$(echo $output | cut -d' ' -f3)
