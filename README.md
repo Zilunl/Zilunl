@@ -64,7 +64,7 @@
 <br />
 <br />
 
-⏳ **Year Progress** { █████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 28.96 % as on ⏰ 16-Apr-2024
+⏳ **Year Progress** { █████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 29.23 % as on ⏰ 17-Apr-2024
 
 ---
 <div align="center">

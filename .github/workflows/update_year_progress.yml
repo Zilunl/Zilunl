@@ -1,19 +1,23 @@
-# update_year_progress.yml
-
 name: Update Year Progress
 
 on:
   schedule:
-    - cron: '0 14 * * *' 
+    - cron: '0 14 * * *' # Run every day at 14:00 UTC, which is 00:00 AEST
 
 jobs:
   update_progress:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Git
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+          node-version: '20' # Update to Node.js 20
 
       - name: Checkout code
         uses: actions/checkout@v2
@@ -25,15 +29,12 @@ jobs:
           progress=$(echo $output | cut -d' ' -f1)
           progress_bar=$(echo $output | cut -d' ' -f2)
           current_date=$(echo $output | cut -d' ' -f3)
-          echo "::set-output name=progress::$progress"
-          echo "::set-output name=progress_bar::$progress_bar"
-          echo "::set-output name=current_date::$current_date"
+          echo "progress=$progress" >> $GITHUB_ENV
+          echo "progress_bar=$progress_bar" >> $GITHUB_ENV
+          echo "current_date=$current_date" >> $GITHUB_ENV
 
       - name: Update README
         run: |
-          progress=$(echo "${{ steps.calculate_progress.outputs.progress }}")
-          progress_bar=$(echo "${{ steps.calculate_progress.outputs.progress_bar }}")
-          current_date=$(echo "${{ steps.calculate_progress.outputs.current_date }}")
           sed -i "s/{ █████.*/{ $progress_bar } $progress % as on ⏰ $current_date/" README.md
           git add README.md
           git commit -m "Update year progress"
