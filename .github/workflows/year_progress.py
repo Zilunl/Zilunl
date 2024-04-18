@@ -15,7 +15,7 @@ def generate_progress_bar(progress_percentage):
     bar_length = 30
     num_filled = int(progress_percentage / (100 / bar_length))
     num_empty = bar_length - num_filled
-    return '{ █████' + '▁' * num_empty + ' }'
+    return '{' + '█' * num_filled + '▁' * num_empty + '}'
 
 progress = calculate_year_progress()
 progress = round(progress, 2)
