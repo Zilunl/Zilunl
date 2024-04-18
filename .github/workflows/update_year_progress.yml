@@ -35,7 +35,7 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s/{ █████.*/{ $progress_bar } $progress % as on ⏰ $current_date/" README.md
+          sed -i "s/{Year Progress.*/Year Progress { $progress_bar } $progress% as on ⏰ $current_date/" README.md
           git add README.md
           git commit -m "Update year progress"
           git push
