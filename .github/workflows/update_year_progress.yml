@@ -2,7 +2,8 @@ name: Update Year Progress
 
 on:
   schedule:
-    - cron: '0 14 * * *' # Run every day at 14:00 UTC, which is 00:00 AEST
+    - cron: '30 0 * * *' # Run every day at 00:30 UTC, which is 10:30 AEST
+    # - cron: '0 14 * * *' # Run every day at 14:00 UTC, which is 00:00 AEST
 
 jobs:
   update_progress:
@@ -25,9 +26,9 @@ jobs:
         id: calculate_progress
         run: |
           output=$(python .github/workflows/year_progress.py)
-          progress=$(echo $output | cut -d' ' -f1)
-          progress_bar=$(echo $output | cut -d' ' -f2)
-          current_date=$(echo $output | cut -d' ' -f3)
+          progress=$(echo "$progress_and_bar" | cut -d' ' -f4)
+          progress_bar=$(echo "$progress_and_bar" | cut -d' ' -f3)
+          current_date=$(echo "$output" | cut -d' as on ⏰ ' -f2)
           echo "progress=$progress" >> $GITHUB_ENV
           echo "progress_bar=$progress_bar" >> $GITHUB_ENV
           echo "current_date=$current_date" >> $GITHUB_ENV
