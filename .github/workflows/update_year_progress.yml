@@ -2,8 +2,7 @@ name: Update Year Progress
 
 on:
   schedule:
-    - cron: '30 0 * * *' # Run every day at 00:30 UTC, which is 10:30 AEST
-    # - cron: '0 14 * * *' # Run every day at 14:00 UTC, which is 00:00 AEST
+    - cron: '0 14 * * *' # Run every day at 14:00 UTC, which is 00:00 AEST
 
 jobs:
   update_progress:
@@ -26,16 +25,11 @@ jobs:
         id: calculate_progress
         run: |
           output=$(python .github/workflows/year_progress.py)
-          progress=$(echo "$progress_and_bar" | cut -d' ' -f4)
-          progress_bar=$(echo "$progress_and_bar" | cut -d' ' -f3)
-          current_date=$(echo "$output" | cut -d' as on ⏰ ' -f2)
-          echo "progress=$progress" >> $GITHUB_ENV
-          echo "progress_bar=$progress_bar" >> $GITHUB_ENV
-          echo "current_date=$current_date" >> $GITHUB_ENV
+          echo "output=$output" >> $GITHUB_ENV
 
       - name: Update README
         run: |
-          sed -i "s/\*\*Year Progress\*\*.*/\*\*Year Progress\*\* $progress_bar $progress\% as on ⏰ $current_date/" README.md
+          sed -i "s/⏳.*/output" README.md
           git add README.md
           git commit -m "Update year progress"
           git push
