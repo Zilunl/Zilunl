@@ -30,7 +30,7 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s/⏳.*/output" README.md
+          sed -i "s/⏳.*/$output/" README.md
           git add README.md
           git commit -m "Update year progress"
           git push
