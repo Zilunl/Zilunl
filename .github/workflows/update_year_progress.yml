@@ -14,13 +14,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-          node-version: '20' # Update to Node.js 20
 
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Run script
         id: calculate_progress
@@ -35,7 +34,7 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s/{**Year Progress**.*/**Year Progress** $progress_bar $progress% as on ⏰ $current_date/" README.md
+          sed -i "s/\*\*Year Progress\*\*.*/\*\*Year Progress\*\* $progress_bar $progress\% as on ⏰ $current_date/" README.md
           git add README.md
           git commit -m "Update year progress"
           git push
