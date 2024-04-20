@@ -1,9 +1,10 @@
 # year_progress.py
 
 import datetime
+import pytz  # Import the pytz library for timezone support
 
 def calculate_year_progress():
-    now = datetime.datetime.now()
+    now = datetime.datetime.now(pytz.timezone('Australia/Melbourne'))
     year_start = datetime.datetime(now.year, 1, 1)
     year_end = datetime.datetime(now.year + 1, 1, 1)
     total_days = (year_end - year_start).days
