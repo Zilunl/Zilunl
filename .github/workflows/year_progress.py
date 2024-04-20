@@ -4,9 +4,8 @@ import datetime
 import pytz  # Import the pytz library for timezone support
 
 def calculate_year_progress():
-    now = datetime.datetime.now(pytz.timezone('Australia/Melbourne')).replace(tzinfo=None)  # Make it offset-naive
+    now = datetime.datetime.now(pytz.timezone('Australia/Melbourne')).replace(tzinfo=None)
     year_start = datetime.datetime(now.year, 1, 1)
-    year_start = year_start.replace(tzinfo=pytz.timezone('Australia/Melbourne'))
     year_end = datetime.datetime(now.year + 1, 1, 1)
     total_days = (year_end - year_start).days
     passed_days = (now - year_start).days
