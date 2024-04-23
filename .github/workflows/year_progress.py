@@ -21,6 +21,6 @@ def generate_progress_bar(progress_percentage):
 progress = calculate_year_progress()
 progress = round(progress, 2)
 progress_bar = generate_progress_bar(progress)
-current_date = datetime.datetime.now().strftime("%d-%b-%Y")
+current_date = (datetime.datetime.now()+datetime.timedelta(days=1)).strftime("%d-%b-%Y")
 
 print(f"⏳ **Year Progress** {progress_bar} {progress}% as on ⏰ {current_date}")
