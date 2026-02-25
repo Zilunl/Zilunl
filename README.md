@@ -11,11 +11,13 @@
 <!-- code gif-->
 <img align="right" alt="GIF" src="/Assets/code.gif" width="400" height="280" />
 
-- 👩🏻‍🎓 I am currently enrolled as a student at the University of Melbourne, pursuing a Master's degree in Information Technology with a specialization in Distributed Computing
-- 💻 I have some knowledge in **ML, AI, NLP**, Cluster and Cloud Computing, Distributed Systems, Algorithms and Data Structures, Web Development, Unity Game Development, Software Project Management, Cryptography and Security, as well as Information Visualization
-- 📚 I am currently in the process of learning how to construct Docker containers
-- 📖 I am currently reading **认知觉醒：开启自我改变的原动力** by 周岭
-- ❤️ I love reading, hiking, tea drinking, meditation and nature
+- 🙋🏻‍♀️ I am a **Software & Algorithm Engineer** currently employed at a company
+- 👩🏻‍🎓 I graduated from the University of Melbourne with a Master of Information Technology
+- 💻 I possess technical expertise that spans **ML, AI, NLP, distributed systems, and algorithms**, with **full-stack development** capabilities across **web, mobile, and mini-program platforms** (covering frontend interfaces, backend services, and database architecture). My technical portfolio also includes **cloud computing, computer vision, software project management, cryptography, and information visualization**. \
+    Beyond core engineering disciplines, I have undertaken structured exploration to acquire foundational knowledge in pharmaceutical formulation development, with particular emphasis on antibody-drug conjugate (ADC) delivery systems
+- 📚 I am currently exploring the frontier of AI Agents, MCP, and OpenClaw
+- 📖 I am currently reading *The Nature of Personal Reality* by Dorothy Jane Roberts
+- ❤️ I love reading, hiking, tea appreciation, meditation and nature
 - 💬 Ask me about anything [here](https://github.com/Zilunl/Zilunl/issues)
 - 👩🏻‍💻 Tech I work on :
 
